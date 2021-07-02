@@ -15,7 +15,7 @@ https://tianchi.aliyun.com/competition/entrance/531852/information\
 
 参与时间:
 ----
-2021-03-20 至 2020-05-11
+2021-03-20 至 2021-05-11
 
 涉及领域:
 ----
@@ -44,7 +44,7 @@ https://github.com/startnew/global_ai_technology_innovation_competition_track_1
 
 3、 预训练时，通过修改部分数据处理代码增加的ngram lm的处理方式，代码位置:./code/n_gram_maskDataCollator.py
 
-4、 要做好充足准备并且耐心与关注比赛时间点做好合理规划。
+4、 要做好充足知识储备并且保持耐心与关注比赛时间点做好合理规划。
 
 遗憾点:
 ----
@@ -85,15 +85,11 @@ https://github.com/startnew/global_ai_technology_innovation_competition_track_1
 todo
 
         
-# 评测代码运行方法:
- 进入到code 目录 然后执行如下命令
+# 运行方法:
+```bash
+pip install -r ./requirements.txt
+```
+ 
 ```bash
 sh run.sh
 ```
-
-
-# 训练代码运行方法 
-进入到code 目录 然后执行如下命令
-```bash
-sh train.sh
-``` 
