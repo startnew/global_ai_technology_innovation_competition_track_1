@@ -26,7 +26,6 @@ NLP，BERT，医学描述
 参赛队伍: 4337
 初赛:64 /0.899869
 复赛:45 /0.923485
-第一名得分:初赛:0.927112 复赛:0.944252
 实验主要使用方法:
 ----
 基于albert 预训练(预训练中使用了lm_ngram) + 微调 + swa + smart 对抗训练 + kfload 5 
@@ -36,7 +35,7 @@ https://github.com/startnew/global_ai_technology_innovation_competition_track_1
 主要收获总结
 ----
 1、 NLP 领域的相关BERT 技术初步涉及，并对huggingFace有了一定的了解:
-最新的一些bert模型，GLUE榜单上模型有了一定的研究与应用
+最新的一些bert模型，GLUE榜单上模型有了一定的了解
 
 2、 BERT 训练相关的对抗训练的方法，通过参考并且实现的smart对抗训练的部分实现在该项目上的应用,并完成了
 一篇对应[阅读笔记](https://blog.csdn.net/Magicapprentice/article/details/115512068?spm=1001.2014.3001.5502)
