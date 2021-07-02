@@ -40,9 +40,9 @@ https://github.com/startnew/global_ai_technology_innovation_competition_track_1
 
 2、 BERT 训练相关的对抗训练的方法，通过参考并且实现的smart对抗训练的部分实现在该项目上的应用,并完成了
 一篇对应[阅读笔记](https://blog.csdn.net/Magicapprentice/article/details/115512068?spm=1001.2014.3001.5502)
+代码位置:./code/smart.py
 
-
-3、 预训练时，通过修改源码增加的ngram lm的处理方式。
+3、 预训练时，通过修改部分数据处理代码增加的ngram lm的处理方式，代码位置:./code/n_gram_maskDataCollator.py
 
 4、 要做好充足准备并且耐心与关注比赛时间点做好合理规划。
 
