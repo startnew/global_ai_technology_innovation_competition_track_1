@@ -385,13 +385,14 @@ if __name__ == "__main__":
         models = []
         for x in os.listdir(model_dir):
             if ".pth" in x:
-                model_file = os.path.join(model_dir, x)
-                print(model_file)
-                load_data = torch.load(model_file, map_location=torch.device('cpu'))
-                if "state_dict" in load_data.keys():
-                    models.append(load_data["state_dict"])
-                else:
-                    models.append(load_data)
+                if name in x:
+                    model_file = os.path.join(model_dir, x)
+                    print(model_file)
+                    load_data = torch.load(model_file, map_location=torch.device('cpu'))
+                    if "state_dict" in load_data.keys():
+                        models.append(load_data["state_dict"])
+                    else:
+                        models.append(load_data)
 
         model_num = len(models)
         print("predict num models:{}".format(model_num))
